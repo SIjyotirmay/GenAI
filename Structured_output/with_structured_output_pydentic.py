@@ -1,7 +1,6 @@
-
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
-from pydantic import BaseModel, EmailStr, Field
+from pydantic import BaseModel, Field
 from typing import Literal, Optional
 
 load_dotenv()
